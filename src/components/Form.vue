@@ -39,7 +39,7 @@ methods: {
         console.log("showdetails")
         this.isdisabled = false
         this.isActive = !this.isActive;
-        // !this.isActive ? this.btnText = "hide details" : this.btnText = "Show details" 
+        !this.isActive ? this.btnText = "hide details" : this.btnText = "Show details" 
     }
 }
 }

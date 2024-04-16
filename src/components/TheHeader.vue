@@ -27,11 +27,6 @@ export default {
     changeclr(eve) {
         this.keyvalu = eve.key
     console.log('keyvalu',keyvalu)
-    //   if (this.isright) {
-    //     this.isright = false;
-    //   } else {
-    //     this.isright = true;
-    //   }
    
     },
   },
